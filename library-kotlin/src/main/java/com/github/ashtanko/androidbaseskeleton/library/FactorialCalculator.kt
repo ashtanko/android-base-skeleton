@@ -24,4 +24,6 @@ object FactorialCalculator {
             input == 0 -> temp
             else -> computeFactorial(input - 1, temp * input)
         }
+
+    fun add(a: Int, b: Int) = a + b
 }

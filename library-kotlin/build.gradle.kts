@@ -9,6 +9,14 @@ plugins {
 
 dependencies {
     testImplementation(libs.junit)
+    testImplementation(libs.jupiter)
+    testImplementation(libs.jupiterParams)
+    testImplementation(libs.jupiterEngine)
+    testImplementation(libs.assertj)
+}
+
+tasks.getByName<Test>("test") {
+    useJUnitPlatform()
 }
 
 java {
