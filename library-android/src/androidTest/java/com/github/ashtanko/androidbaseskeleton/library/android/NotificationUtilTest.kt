@@ -35,7 +35,8 @@ class NotificationUtilTest {
     fun createCorrectNotification() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
 
-        val notification = NotificationUtil(context).showNotification(context, "test title", "test message")
+        val notification =
+            NotificationUtil(context).showNotification(context, "test title", "test message")
 
         assertEquals("test title", notification.extras.getCharSequence(Notification.EXTRA_TITLE))
         assertEquals("test message", notification.extras.getCharSequence(Notification.EXTRA_TEXT))

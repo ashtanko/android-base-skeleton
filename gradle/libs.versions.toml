@@ -43,8 +43,8 @@ agp = { module = "com.android.tools.build:gradle", version.ref = "agp" }
 kgp = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 
 # Doc
-dokka_gradle_plugin = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokka"}
-dokka_core = { module = "org.jetbrains.dokka:dokka-core", version.ref = "dokka"}
+dokka_gradle_plugin = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokka" }
+dokka_core = { module = "org.jetbrains.dokka:dokka-core", version.ref = "dokka" }
 
 # Dagger & Hilt
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
