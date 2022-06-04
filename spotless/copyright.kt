@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 Oleksii Shtanko
+ * Copyright $YEAR Oleksii Shtanko
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,14 +14,3 @@
  * limitations under the License.
  */
 
-package com.ncorti.kotlin.template.library
-
-object FactorialCalculator {
-
-    tailrec fun computeFactorial(input: Int, temp: Long = 1L): Long =
-        when {
-            input < 0 -> error("Factorial is not defined for negative numbers")
-            input == 0 -> temp
-            else -> computeFactorial(input - 1, temp * input)
-        }
-}
