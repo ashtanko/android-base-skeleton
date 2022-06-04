@@ -35,8 +35,8 @@ jobs:
           path: ~/.gradle/wrapper/dists
           key: ${{ runner.os }}-gradlewrapper
 
-      - name: Run Detekt
-        run: ./gradlew detekt ktlint
+      - name: Run check
+        run: ./gradlew spotlessCheck spotlessKotlin detekt ktlintCheck --profile --daemon
 
   lint:
     runs-on: ubuntu-latest
