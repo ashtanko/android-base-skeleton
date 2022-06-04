@@ -99,10 +99,8 @@ jobs:
           name: test-results
           path: '**/build/reports/tests/**'
 
-  #      - name: Upload coverage to Codecov
-  #        uses: codecov/codecov-action@v1.0.7
-  #        with:
-  #          token: ${{secrets.CODECOV_TOKEN}}
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v2
 
   build:
     runs-on: ubuntu-latest
