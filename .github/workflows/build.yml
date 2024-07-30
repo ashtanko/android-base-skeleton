@@ -36,7 +36,7 @@ jobs:
           key: ${{ runner.os }}-gradlewrapper
 
       - name: Run check
-        run: ./gradlew spotlessCheck spotlessKotlin detekt ktlintCheck --profile --daemon
+        run: ./gradlew spotlessCheck spotlessKotlin detekt --profile --daemon
 
   lint:
     runs-on: ubuntu-latest
