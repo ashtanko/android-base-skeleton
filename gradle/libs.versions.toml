@@ -1,6 +1,6 @@
 [versions]
-agp = "8.7.0-alpha03"               # https://mvnrepository.com/artifact/com.android.application/com.android.application.gradle.plugin
-kotlin = "2.0.0"                    # https://kotlinlang.org/docs/releases.html
+agp = "8.7.0-alpha07"               # https://mvnrepository.com/artifact/com.android.application/com.android.application.gradle.plugin
+kotlin = "2.0.10"                   # https://kotlinlang.org/docs/releases.html
 coreKtx = "1.13.1"                  # https://mvnrepository.com/artifact/androidx.core/core-ktx
 junit = "4.13.2"                    # todo replace with jupiter api
 junitVersion = "1.2.1"              # https://mvnrepository.com/artifact/androidx.test.ext/junit
@@ -18,7 +18,7 @@ mockito = "5.12.0"                  # https://mvnrepository.com/artifact/org.moc
 mockito_kotlin = "2.2.0"            # https://github.com/mockito/mockito-kotlin
 kotlintest = "3.4.2"                # https://mvnrepository.com/artifact/io.kotlintest/kotlintest-core
 kotest = "5.9.1"                    # https://kotest.io
-okhttp = "5.0.0-alpha.12"           # https://square.github.io/okhttp/changelogs/changelog
+okhttp = "5.0.0-alpha.14"           # https://square.github.io/okhttp/changelogs/changelog
 
 [libraries]
 

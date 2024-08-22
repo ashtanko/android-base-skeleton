@@ -33,8 +33,5 @@ class MainActivity : ComponentActivity() {
 
             }
         }
-        print("Hello, World!")
-
-
     }
 }

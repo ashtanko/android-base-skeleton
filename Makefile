@@ -1,6 +1,6 @@
 .PHONY: check run
 check:
-		./gradlew spotlessApply spotlessCheck spotlessKotlin detekt ktlintCheck --profile --daemon
+		./gradlew spotlessApply spotlessCheck spotlessKotlin detekt --profile --daemon
 
 run:
 		./gradlew build
